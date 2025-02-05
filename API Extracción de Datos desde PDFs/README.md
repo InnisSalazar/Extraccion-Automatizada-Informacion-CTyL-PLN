@@ -71,7 +71,7 @@ project/
 
 #### **1.** Clona el repositorio
 ```bash
-git clone <URL-del-repositorio> - REVISAR
+git clone https://github.com/InnisSalazar/Extraccion-Automatizada-Informacion-CTyL-PLN.git
 cd project
 ```
 
