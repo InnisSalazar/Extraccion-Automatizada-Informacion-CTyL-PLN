@@ -72,7 +72,7 @@ project/
 #### **1.** Clona el repositorio
 ```bash
 git clone https://github.com/InnisSalazar/Extraccion-Automatizada-Informacion-CTyL-PLN.git
-cd project
+cd Extraccion-Automatizada-Informacion-CTyL-PLN
 ```
 
 #### **2.** Construir y ejecutar con Docker
