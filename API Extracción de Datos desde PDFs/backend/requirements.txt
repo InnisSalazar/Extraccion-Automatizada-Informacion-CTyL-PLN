@@ -1,0 +1,5 @@
+Flask
+torch
+transformers
+pdf2image
+pytesseract

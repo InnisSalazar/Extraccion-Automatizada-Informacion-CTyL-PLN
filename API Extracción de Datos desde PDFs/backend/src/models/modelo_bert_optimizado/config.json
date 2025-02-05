@@ -1,0 +1,53 @@
+{
+  "_name_or_path": "dccuchile/bert-base-spanish-wwm-cased",
+  "architectures": [
+    "BertForTokenClassification"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "B-AREA_H",
+    "1": "B-AREA_M",
+    "2": "B-EXTENSION",
+    "3": "B-HECTAREA",
+    "4": "B-METROS_2",
+    "5": "I-AREA_H",
+    "6": "I-AREA_M",
+    "7": "I-EXTENSION",
+    "8": "I-HECTAREA",
+    "9": "I-METROS_2",
+    "10": "O"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label2id": {
+    "B-AREA_H": 0,
+    "B-AREA_M": 1,
+    "B-EXTENSION": 2,
+    "B-HECTAREA": 3,
+    "B-METROS_2": 4,
+    "I-AREA_H": 5,
+    "I-AREA_M": 6,
+    "I-EXTENSION": 7,
+    "I-HECTAREA": 8,
+    "I-METROS_2": 9,
+    "O": 10
+  },
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "output_past": true,
+  "pad_token_id": 1,
+  "position_embedding_type": "absolute",
+  "torch_dtype": "float32",
+  "transformers_version": "4.47.1",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 31002
+}

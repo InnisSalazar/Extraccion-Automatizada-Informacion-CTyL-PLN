@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: ./
+      dockerfile: ./backend/Dockerfile 
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./uploads:/app/uploads
+      - ./frontend/templates:/app/templates
+      - ./frontend/static:/app/static
+      - ./backend/src/models/modelo_bert_optimizado:/app/src/models/modelo_bert_optimizado

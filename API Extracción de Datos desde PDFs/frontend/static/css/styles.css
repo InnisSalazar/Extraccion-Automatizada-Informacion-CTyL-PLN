@@ -1,0 +1,114 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f9fc;
+    color: #4a4a4a;
+}
+.container {
+    max-width: 1200px;
+    margin-top: 50px;
+}
+
+/* Estilo para la fila principal */
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Estilo para la primera columna (resultados extraídos) */
+.results {
+    flex: 1;
+    margin-right: 20px;
+    max-height: 90vh;
+    overflow-y: auto;
+    border: 2px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fbfcfd;
+}
+
+/* Estilo para la segunda columna que contiene el PDF y texto */
+.pdf-text-container {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* Estilo para las subcolumnas de PDF y texto */
+.pdf-container {
+    border: 2px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fbfcfd;
+    margin-bottom: 10px;
+    flex: 1;
+}
+
+.text-container {
+    border: 2px solid #dddddd;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fbfcfd;
+    flex: 1;
+}
+
+.result-item {
+    margin-bottom: 10px;
+    border: 2px solid #f2f6f9;
+    padding: 2 px;
+    background-color: #fdfdff;
+}
+
+.result-item .key {
+    font-weight: bold;
+    color: #20212f;
+}
+
+.result-item .value {
+    margin-left: 10px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.file-upload {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.file-upload label,
+.file-upload span,
+.file-upload button {
+    margin-right: 10px;
+}
+
+.mb-4 {
+    margin-bottom: 40px;
+}
+
+/* Estilo para los botones de descarga */
+.download-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.results, .pdf-container, .text-container {
+    transition: all 0.3s ease-in-out;
+}
+
+.loading-indicator {
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 1000;
+background-color: rgba(255, 255, 255, 0.8);
+padding: 10px;
+border-radius: 8px;
+}
